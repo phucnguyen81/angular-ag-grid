@@ -8,7 +8,7 @@ import { AgGridModule } from 'ag-grid-angular';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, AgGridModule],
+  imports: [BrowserModule, FormsModule, AgGridModule, HttpClientModule],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
 })
